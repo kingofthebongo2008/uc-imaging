@@ -56,7 +56,7 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)..\lib\win-$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
-    <TargetName>uc-serialization</TargetName>
+    <TargetName>uc-imaging</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -65,7 +65,7 @@
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)..\lib\win-$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
-    <TargetName>uc-serialization</TargetName>
+    <TargetName>uc-imaging</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
