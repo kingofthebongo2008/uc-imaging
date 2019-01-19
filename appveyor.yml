@@ -5,9 +5,8 @@ build_script:
 - cmd: >-
     nuget restore c:\projects\build\build.sln
 
-    msbuild -verbosity:quiet c:\projects\build\build.sln /p:Configuration="Release"
+    msbuild c:\projects\build\build.sln /p:Configuration="Release" /verbosity:quiet
 
-    msbuild -verbosity:quiet c:\projects\build\build.sln /p:Configuration="Release-uc-backend-public"
 before_deploy:
 - ps: >-
     $autopkgFile = "package.nuspec"
