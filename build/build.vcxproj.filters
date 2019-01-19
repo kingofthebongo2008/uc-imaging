@@ -19,31 +19,14 @@
 <ItemGroup>
 <Filter Include = "include"/>
 <Filter Include = "include\uc"/>
-<Filter Include = "include\uc\lip"/>
+<Filter Include = "include\uc\img"/>
 </ItemGroup>
 <ItemGroup>	
-<ClInclude Include = "..\include\uc\lip\base_class_info.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\base_class_info_base.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\context.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\introspector.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\introspector_manager.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\introspector_version.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\item_pointers.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\lip.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\member_info.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\member_info_base.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\pointers.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\pointers_reloc_array.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\rtti_macros.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\string_hash.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\tools_time_utils.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\tools_time_writer.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\type_factory.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\type_id.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\type_info.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\type_traits.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\writer.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\writer_memory.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\writers.h"><Filter>include\uc\lip</Filter></ClInclude>	
-<ClInclude Include = "..\include\uc\lip\writers_pointers.h"><Filter>include\uc\lip</Filter></ClInclude>
+<ClInclude Include = "..\include\uc\img\cpu_default_textures.h"><Filter>include\uc\img</Filter></ClInclude>	
+<ClInclude Include = "..\include\uc\img\cpu_imaging.h"><Filter>include\uc\img</Filter></ClInclude>	
+<ClInclude Include = "..\include\uc\img\cpu_imaging_utils.h"><Filter>include\uc\img</Filter></ClInclude>	
+<ClInclude Include = "..\include\uc\img\cpu_imaging_utils_base.h"><Filter>include\uc\img</Filter></ClInclude>	
+<ClInclude Include = "..\include\uc\img\cpu_imaging_utils_cpu.h"><Filter>include\uc\img</Filter></ClInclude>	
+<ClInclude Include = "..\include\uc\img\error.h"><Filter>include\uc\img</Filter></ClInclude>	
+<ClInclude Include = "..\include\uc\img\img.h"><Filter>include\uc\img</Filter></ClInclude>
 </ItemGroup></Project> 
