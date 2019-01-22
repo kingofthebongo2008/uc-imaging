@@ -14,9 +14,8 @@
     <tags>imaging,unique,uc,creator</tags>
   </metadata>
   <files>
-    <file src = "include\**" target = "include" />
-    <file src = "lib\**"     target = "lib" />
-    <file src = "build\uc-imaging.props"   target = "build" />
-    <file src = "build\uc-imaging.targets" target = "build" />
+    <file src = "include\**" target = "build/native/include" />
+    <file src = "build\uc-imaging.props"   target = "build/native" />
+    <file src = "build\uc-imaging.targets" target = "build/native" />
   </files>
 </package>
