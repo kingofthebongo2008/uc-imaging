@@ -295,8 +295,6 @@ namespace uc
 
             template <typename texture > inline void write_image(const texture& t, const wchar_t* url_path)
             {
-                using namespace os::windows;
-
                 auto factory = imaging::create_factory();
                 auto stream0 = imaging::create_stream_writing(factory, url_path);
                 auto encoder0 = imaging::create_encoder_writing(factory, stream0);
